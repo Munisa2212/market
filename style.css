@@ -3,11 +3,14 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: #4B0B0B;
+}
 .card{
     width: 300px;
     background-color: lightpink;
-    border: 1px solid black;
+    border: 1px solid #4B0B0B;
     padding: 20px;
     border-radius: 20px;
     display: flex;
@@ -40,4 +43,31 @@ body{
 .card button{
     height: 30px;
     width: 200px;
+}
+
+.header{
+    margin: 20px 500px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 140px 0;
+    gap: 50px;
+}
+.size{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #4B0B0B;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+}
+.back{
+    margin: 10px;
+    font-size: 20px;
 }
